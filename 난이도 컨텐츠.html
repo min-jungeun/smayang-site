@@ -43,12 +43,18 @@
             align-items: center;
         }
         @media (max-width:990px) {
-            #about{
-                height: calc(100vw + 50px);    /* 100vw -> 정사각형으로 해줘*/
+            /* #about{
+                height: calc(100vw + 50px);    100vw -> 정사각형으로 해줘
                 display: block;
-                padding: 5rem 0 0;    /* 위 오른쪽 하단 왼쪽은 오른쪽과 똑같다는 뜻*/ 
+                padding: 5rem 0 0;    위 오른쪽 하단 왼쪽은 오른쪽과 똑같다는 뜻 
                 text-align: center;
-                background-position: right /*x축*/  center /*y축*/;
+                background-position: right x축  center y축;
+            } */
+            #about{
+                height: calc(100vw + 50px);
+                flex-direction: column;
+                background-image: url(./img/m_bg.jpg);
+                
             }
         }
     </style>
